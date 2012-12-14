@@ -13,9 +13,9 @@ function fgets_u($pStdn) {
 	}
 }
 
-$nickname = "WhatsAPI Test";
-$sender = 	""; // Mobile number with country code (but without + or 00)
-$imei = 	""; // MAC Address for iOS IMEI for other platform (Android/etc) 
+$nickname = "antonella";
+$sender = 	"393409644381"; // Mobile number with country code (but without + or 00)
+$imei = 	"353976055070555"; // MAC Address for iOS IMEI for other platform (Android/etc) 
 
 
 $countrycode = substr($sender, 0, 2);
@@ -26,7 +26,7 @@ if ($argc < 2) {
 	echo "\tphone: full number including country code, without '+' or '00'\n";
 	echo "\t-s: send message\n";
 	echo "\t-l: listen for new messages\n";
-	echo "\t-i: interactive conversation with <phone>\n";
+	echo "\t-i: interactive conversation with <393282829678>\n";
 	echo "\t-set: Set Status to <status>\n";
 	exit(1);
 }
